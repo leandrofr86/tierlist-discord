@@ -1,0 +1,10 @@
+{
+  "name": "tierlist-discord-frontend",
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "npm run build"
+  },
+  "deploy": {
+    "startCommand": "npm run preview -- --host --port $PORT"
+  }
+}

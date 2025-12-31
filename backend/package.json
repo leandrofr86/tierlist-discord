@@ -1,0 +1,20 @@
+{
+  "name": "tierlist-discord-backend",
+  "version": "1.0.0",
+  "description": "Backend para Tierlist interativa com Discord",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "express": "^4.18.2",
+    "ws": "^8.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
